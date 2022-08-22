@@ -11,17 +11,14 @@ $.getJSON('https://raw.githubusercontent.com/Mons1erDEV/CSGOquotes/main/quotes.j
 
 
     Object.keys(data).forEach(key => {
-        // EL NUMERO DE LA POSICION TIENE QUE SER UN RANDOM ENTRE 1 Y X
-        
+
         var arrayQuote = data[key][randNum];
         quoteText.textContent += arrayQuote['quote'];
         quoteAutor.textContent += arrayQuote['autor'];
 
         console.log(arrayQuote['quote']);
         console.log(arrayQuote['autor']);
-        // arrayQuote.forEach(element => {
-        //     console.log(element);
-        // });
+
     });
     
 });
