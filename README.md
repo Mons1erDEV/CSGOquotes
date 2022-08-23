@@ -1,2 +1,2 @@
-# CSGOquotes
+# CSGO quotes genarator 
 CSGO quotes
