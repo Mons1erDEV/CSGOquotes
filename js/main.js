@@ -5,7 +5,7 @@ function randomNumber(min, max) {
 
 
 function getQuote(){
-    $.getJSON('https://raw.githubusercontent.com/Mons1erDEV/CSGOquotes/main/quotes.json', function(data) {
+    $.getJSON('https://raw.githubusercontent.com/Mons1erDEV/CSGOquotes/main/json/quotes.json', function(data) {
     
     var objLength = Object.keys(data['quotes']).length;
     randNum = randomNumber(0,objLength);
